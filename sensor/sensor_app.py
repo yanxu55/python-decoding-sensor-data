@@ -6,7 +6,7 @@ from load_data import load_sensor_data
 # They are needed to validate your unittest
 data = load_sensor_data()
 print("Sensor Data App")
-print(f"Loaded records: {len(data)}")
+print("Loaded records {}".format(len(data)))
 
 ##############################
 
